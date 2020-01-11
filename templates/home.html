@@ -1,0 +1,16 @@
+<html>
+     <head>
+         <title>SPAM or HAM</title>
+     </head>
+     <body>
+         <h2>Span detector</h2>
+         <div class="spamham">  
+             <form action="{{ url_for('predict')}}" method="POST">
+                 <p>Enter Your Comment Here</p>
+                 <textarea name="comment" rows="4" cols="="50></textarea>
+                 <br>
+                 <input type="submit" class="spamham-i     nfo" value="predict">
+             </form>
+         </div>
+     </body>
+</html>
